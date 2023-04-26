@@ -17,10 +17,6 @@ body {
     height: 100px;
 }
 
-.navText-color {
-    color: #7a551c;
-}
-
 
 /* Contenido */
 
@@ -98,7 +94,7 @@ body {
 .copyright {
     position: absolute;
     bottom: 0;
-    left: 800px;
+    left: 0px;
     margin-bottom: 20px;
     padding: 0 100px 30px;
     justify-content: center;
@@ -114,7 +110,7 @@ body {
 /* Redes Sociales*/
 .redesSociales{
     position: absolute;
-    right: 0;
+    right: 700px;
     bottom: 0;
     display: flex;
     justify-content: space-between;
@@ -138,3 +134,23 @@ body {
     color: #7a551c;
     
 }
+
+/* Tienda */
+.tienda a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffd5;
+    background: #7a551c;
+    padding: 10px 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.tienda a:hover{
+    color: #7a551c;
+    background: #ffffd5;
+}
+/* Medias Querys */
+
