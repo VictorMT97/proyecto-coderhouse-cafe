@@ -17,6 +17,11 @@ body {
     height: 100px;
 }
 
+.navText-color {
+    color: #7a551c;
+}
+
+
 /* Contenido */
 
 .contenido{
