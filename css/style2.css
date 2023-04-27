@@ -24,7 +24,7 @@ body {
     position: relative;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding-left: 30px;
 
@@ -49,6 +49,13 @@ body {
     font-family: 'lora' , serif ;
     font-weight: 600;
 
+}
+
+.contenido .tituloBox h3{
+    font-size: 3.5em;
+    text-transform: uppercase;
+    color: #7a551c;
+    line-height: 1.2;
 }
 
 .contenido .tituloBox p{
@@ -89,14 +96,14 @@ body {
     width: 480px;
 }
 
-section .imgBox{
+/* section .imgBox{
     position: relative;
     display: flex;
     justify-content: center;
-    width: 600px;
+    width: 900px;
     align-items: center;
     margin: auto;
-}
+} */
 
 /* Copyright*/
 
