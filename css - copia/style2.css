@@ -108,9 +108,9 @@ body {
 /* Copyright*/
 
 .copyright {
-    position: relative;
+    position: absolute;
     /* bottom: 0; */
-    
+    left: 0px;
     margin-bottom: 20px;
     padding: 0 100px 30px;
     justify-content: center;
@@ -125,10 +125,11 @@ body {
 
 /* Redes Sociales*/
 .redesSociales{
-    position: relative;
+    position: absolute;
+    right: 700px;
     /* bottom: 0; */
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 0 100px 30px;
     list-style: none;
@@ -221,29 +222,7 @@ body {
       align-items: center;
       align-content: normal;
     }
-    .contenido {
-      display: block;
-      justify-content: center;
-      flex-direction: column;
-    }
-    .contenido .imgBox{
-      justify-content:flex-start;
-      margin-top: 20%;
-    }
-    .contenido .imgBox .carousel-item img{
-      width: 80%;
-      height: auto;
-      margin: 0 auto;
-    }
-
-    .contenido .tituloBox{
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      font-size:x-small;
-    
   }
-}
 
 
 
