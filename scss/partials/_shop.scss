@@ -1,0 +1,62 @@
+/* Tienda */
+.tienda a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffd5;
+    background: #7a551c;
+    padding: 10px 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.tienda a:hover{
+    color: #7a551c;
+    background: #ffffd5;
+}
+
+/* TIENDA no funcional */
+.product-list .product {
+    display: block;
+  }
+  
+.filtered {
+    display: none;
+  }
+
+  .filters {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #9b7239;
+    opacity: 50%;
+    color: black solid;
+  }
+  
+  .filter-option {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .filter-option label {
+    display: inline-block;
+    margin-right: 5px;
+    font-weight: bold;
+  }
+  
+  .filter-option select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .filter-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+    color: #fff;
+    cursor: pointer;
+  }
+

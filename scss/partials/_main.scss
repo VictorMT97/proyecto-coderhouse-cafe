@@ -1,0 +1,77 @@
+/* Contenido */
+
+.contenido{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+.contenido .tituloBox{
+    position: relative;
+    max-width: 600px;
+}
+
+.contenido .tituloBox h2{
+    font-size: 4.5em;
+    text-transform: uppercase;
+    color: #7a551c;
+    line-height: 1.2;
+}
+
+.contenido .tituloBox h2 span{
+    background: #9b7239;
+    color: #ffffd5;
+    padding: 0 10px;
+    font-family: 'lora' , serif ;
+    font-weight: 600;
+
+}
+
+.contenido .tituloBox h3{
+    font-size: 3.5em;
+    text-transform: uppercase;
+    color: #7a551c;
+    line-height: 1.2;
+}
+
+.contenido .tituloBox p{
+    font-size: 1.8em;
+    line-height: 1.5;
+    color: #7a551c;
+    font-family: 'lora' , serif ;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contenido .tituloBox a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffd5;
+    background: #7a551c;
+    padding: 10px 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.contenido .tituloBox a:hover{
+    color: #7a551c;
+    background: #ffffd5;
+}
+
+.contenido .imgBox{
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 0px;
+}
+
+.contenido .imgBox div{
+    width: 480px;
+}

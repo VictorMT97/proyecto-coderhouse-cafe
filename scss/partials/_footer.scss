@@ -1,0 +1,45 @@
+/* Copyright*/
+
+.copyright {
+    position: absolute;
+    /* bottom: 0; */
+    left: 0px;
+    margin-bottom: 20px;
+    padding: 0 100px 30px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.copyright p{
+    color: #ffffd5;
+}
+
+/* Redes Sociales*/
+.redesSociales{
+    position: absolute;
+    right: 700px;
+    /* bottom: 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 30px;
+    list-style: none;
+}
+
+.redesSociales li{
+    padding: 10px;
+}
+
+.redesSociales li a{
+    color: #ffffd5;
+    font-size: 1.5em;
+    transition: 0.3s;
+
+}
+
+.redesSociales li a:hover{
+    color: #7a551c;
+    
+}
