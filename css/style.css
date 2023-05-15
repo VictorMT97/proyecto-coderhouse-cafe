@@ -130,8 +130,7 @@ body {
   letter-spacing: 2px;
   transition: 0.3s;
 }
-
-.tienda a:hover {
+.tienda a .tienda a:hover {
   color: #7a551c;
   background: #ffffd5;
 }
@@ -153,25 +152,21 @@ body {
   opacity: 50%;
   color: black solid;
 }
-
-.filter-option {
+.filters .filter-option {
   display: inline-block;
   margin-right: 10px;
 }
-
-.filter-option label {
+.filters .filter-option .filter-option label {
   display: inline-block;
   margin-right: 5px;
   font-weight: bold;
 }
-
-.filter-option select {
+.filters .filter-option .filter-option select {
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-
-.filter-button {
+.filters .filter-option .filter-button {
   padding: 5px 10px;
   border: none;
   border-radius: 5px;
