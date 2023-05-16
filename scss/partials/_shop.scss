@@ -8,13 +8,14 @@
     margin-left: 30px;
     border-radius: 20px;
     letter-spacing: 2px;
-    transition: 0.3s;
-        
-        .tienda a:hover{
-            color: #7a551c;
-            background: #ffffd5;
-        }
+    transition: 0.3s;  
+    
+    &:hover{
+        color: #7a551c;
+        background: #ffffd5;
+    }
 }
+
 
 
 
