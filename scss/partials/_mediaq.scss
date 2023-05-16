@@ -1,4 +1,4 @@
-/* Medias Querys */
+/* Medias Querys CARD*/
 
 @media screen and (max-width: 767px) {
     .grid-container {
@@ -22,9 +22,25 @@
  
   // Media querys index
 
-  @media (max-width: 425px) {
+  @media screen and (max-width: 480px) {
     .contenido {
       display: flex;
+      margin: 0px;
       align-items: center;
-      text-align: center;}
+      text-align: center;
+      flex-direction: column;
+      font-size: .6rem;
     }
+    
+    .copyright{
+      position: relative;
+      margin-bottom: 0px;
+      text-align: center;
+    }
+
+    .redesSociales{
+      position: relative;
+      right: 0px;
+      justify-content: space-around;
+    }
+  }
