@@ -25,11 +25,17 @@
   @media screen and (max-width: 480px) {
     .contenido {
       display: flex;
-      margin: 0px;
       align-items: center;
       text-align: center;
+      row-gap: 30px;
       flex-direction: column;
       font-size: .6rem;
+        .imgBox {
+          padding: 0 !important;
+        }
+        .imgBox2{
+          padding: 10px !important;
+        }
     }
     
     .copyright{
@@ -42,5 +48,13 @@
       position: relative;
       right: 0px;
       justify-content: space-around;
+    }
+
+    .tienda {
+      margin-top: 1rem;
+
+      a{
+        margin-left: 0;
+      }
     }
   }

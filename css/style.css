@@ -35,11 +35,17 @@
 @media screen and (max-width: 480px) {
   .contenido {
     display: flex;
-    margin: 0px;
     align-items: center;
     text-align: center;
+    row-gap: 30px;
     flex-direction: column;
     font-size: 0.6rem;
+  }
+  .contenido .imgBox {
+    padding: 0 !important;
+  }
+  .contenido .imgBox2 {
+    padding: 10px !important;
   }
   .copyright {
     position: relative;
@@ -50,6 +56,12 @@
     position: relative;
     right: 0px;
     justify-content: space-around;
+  }
+  .tienda {
+    margin-top: 1rem;
+  }
+  .tienda a {
+    margin-left: 0;
   }
 }
 /* FORMULARIO */
@@ -277,11 +289,17 @@ body {
 @media screen and (max-width: 480px) {
   .contenido {
     display: flex;
-    margin: 0px;
     align-items: center;
     text-align: center;
+    row-gap: 30px;
     flex-direction: column;
     font-size: 0.6rem;
+  }
+  .contenido .imgBox {
+    padding: 0 !important;
+  }
+  .contenido .imgBox2 {
+    padding: 10px !important;
   }
   .copyright {
     position: relative;
@@ -292,6 +310,12 @@ body {
     position: relative;
     right: 0px;
     justify-content: space-around;
+  }
+  .tienda {
+    margin-top: 1rem;
+  }
+  .tienda a {
+    margin-left: 0;
   }
 }
 /* Cards */
@@ -388,10 +412,22 @@ body {
   justify-content: flex-end;
   align-items: center;
   width: 480px;
-  padding-right: 50px;
+  padding: 0 50px 0 0;
   margin-top: 0px;
 }
 .contenido .imgBox div {
+  width: 100%;
+}
+
+.contenido .imgBox2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 480px;
+  padding: 0 50px 0 0;
+  margin-top: 0px;
+}
+.contenido .imgBox2 div {
   width: 100%;
 }
 

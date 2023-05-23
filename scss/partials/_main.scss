@@ -61,7 +61,18 @@
 .contenido .imgBox{
     @include flex (flex-end, center);
     width: 480px;
-    padding-right: 50px;
+    padding: 0 50px 0 0;
+    margin-top: 0px;
+
+    div{
+        width: 100%;
+    }
+}
+
+.contenido .imgBox2{
+    @include flex (flex-end, center);
+    width: 480px;
+    padding: 0 50px 0 0;
     margin-top: 0px;
 
     div{
