@@ -10,34 +10,4 @@
     margin: auto;
     justify-content: space-around;
     align-items: center;
-
-    .card {
-      max-width: 300px;
-      width: 100%;
-      border: 1px solid #7a551c;
-      padding: 10px;
-
-      img {
-        max-width: 100%;
-        height: auto;
-      }
-
-      .card-button {
-        display: block;
-        margin-top: 10px;
-        
-        &:hover {
-          background-color: #ffffd5;
-        }
-      }
-    }
-    
-  }
-  
- 
-  
-  
-  
-  
-  
- 
+}

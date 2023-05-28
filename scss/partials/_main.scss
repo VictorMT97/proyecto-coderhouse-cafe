@@ -7,6 +7,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 50px;
 
     .tituloBox{
         position: relative;
@@ -43,14 +44,20 @@
         }
         
         a{
-          @extend .btn;
+            @extend .btn;
             &:hover{
                 transition: background-color 5s ease-out ;
             } 
 
         }
     }
+
+    .tituloBox2 {
+        @extend .tituloBox;
+        max-width: 600px;
+    }
 }
+
 
 @mixin flex($justify, $align) {
     display: flex;
@@ -72,7 +79,6 @@
 .contenido .imgBox2{
     @include flex (flex-end, center);
     width: 480px;
-    padding: 0 50px 0 0;
     margin-top: 0px;
 
     div{
