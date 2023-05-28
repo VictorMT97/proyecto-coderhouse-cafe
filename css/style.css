@@ -331,6 +331,10 @@ body {
   align-items: center;
 }
 
+.bg-custom {
+  background-color: rgba(155, 114, 57, 0.3960784314);
+}
+
 .btn, .contenido .tituloBox a, .contenido .tituloBox2 a {
   text-decoration: none;
   text-transform: uppercase;
